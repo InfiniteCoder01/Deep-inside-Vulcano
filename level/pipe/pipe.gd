@@ -12,7 +12,7 @@ var fill := 0.0
 func _process(delta: float) -> void:
 	fill += delta * 400.0
 	for child in get_children():
-		if !(child is Tap): continue
+		if child is not Tap: continue
 		if child.open: continue
 		var offset = curve.get_closest_offset(child.position)
 		fill = min(fill, offset)

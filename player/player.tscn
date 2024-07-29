@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://player/player.gd" id="1_7qoky"]
 [ext_resource type="Texture2D" uid="uid://drtqv0pvrnham" path="res://player/player.png" id="1_j5261"]
 [ext_resource type="Script" path="res://player/player_animation_tree.gd" id="3_lowuc"]
-[ext_resource type="AudioStream" uid="uid://d2gigqb6fdi32" path="res://player/jump.wav" id="4_bpvcr"]
+[ext_resource type="AudioStream" uid="uid://doej8kf3sicw2" path="res://player/jump.wav" id="4_w45fj"]
 
 [sub_resource type="Animation" id="Animation_wwp63"]
 length = 0.5
@@ -385,6 +385,45 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource("AnimationNodeStateMachine_sq4an")
 anim_player = NodePath("../AnimationPlayer")
+parameters/current_length = 0.1
+parameters/current_position = 0.0812191
+parameters/current_delta = 0.00691
+parameters/End/current_length = null
+parameters/End/current_position = null
+parameters/End/current_delta = null
+parameters/OnGround/current_length = 0.1
+parameters/OnGround/current_position = 0.0812191
+parameters/OnGround/current_delta = 0.00691
+parameters/OnGround/End/current_length = null
+parameters/OnGround/End/current_position = null
+parameters/OnGround/End/current_delta = null
+parameters/OnGround/Start/current_length = 0.0
+parameters/OnGround/Start/current_position = 0.0
+parameters/OnGround/Start/current_delta = 0.0
+parameters/OnGround/idle/current_length = 0.1
+parameters/OnGround/idle/current_position = 0.0812191
+parameters/OnGround/idle/current_delta = 0.00691
+parameters/OnGround/run/current_length = null
+parameters/OnGround/run/current_position = null
+parameters/OnGround/run/current_delta = null
+parameters/Start/current_length = 0.0
+parameters/Start/current_position = 0.0
+parameters/Start/current_delta = 0.0
+parameters/fall/current_length = 0.1
+parameters/fall/current_position = 0.0519038
+parameters/fall/current_delta = 0.00909091
+parameters/jump/current_length = 0.1
+parameters/jump/current_position = 0.0
+parameters/jump/current_delta = 0.0
+parameters/kick/current_length = null
+parameters/kick/current_position = null
+parameters/kick/current_delta = null
+parameters/land/current_length = 0.2
+parameters/land/current_position = 0.2
+parameters/land/current_delta = 0.0
+parameters/slide/current_length = 0.1
+parameters/slide/current_position = 0.0275355
+parameters/slide/current_delta = 0.0658003
 script = ExtResource("3_lowuc")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -417,5 +456,5 @@ collision_mask = 2
 shape = SubResource("RectangleShape2D_ngugp")
 
 [node name="JumpSFX" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_bpvcr")
-volume_db = -30.0
+stream = ExtResource("4_w45fj")
+volume_db = -20.0

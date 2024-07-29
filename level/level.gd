@@ -27,7 +27,7 @@ func _process(delta: float) -> void:
 
 func end_game() -> void:
 	for child in %Pipe.get_children():
-		if !(child is Tap): continue
+		if child is not Tap: continue
 		if child.open: continue
 		%EndGame.open = false
 		return

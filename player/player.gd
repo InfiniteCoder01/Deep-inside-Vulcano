@@ -2,7 +2,6 @@ class_name Player
 extends CharacterBody2D
 
 const SPEED = 300.0
-const GRAVITY = Vector2(0.0, 910.0)
 const JUMP_VELOCITY = -400.0
 const SLIDE_VELOCITY = 100.0
 const KICK_VELOCITY = 800.0
@@ -28,7 +27,7 @@ func _physics_process(delta: float) -> void:
 	var target_velocity := horizontal_input * SPEED
 	velocity.x += (target_velocity - velocity.x) * 0.1;
 
-	velocity += GRAVITY * delta
+	velocity += get_gravity() * delta
 	if sliding:
 		velocity.y = min(velocity.y, SLIDE_VELOCITY)
 		if Input.is_action_just_pressed("jump"):
