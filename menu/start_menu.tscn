@@ -69,6 +69,6 @@ layout_mode = 2
 layout_mode = 2
 text = "Show timer"
 
-[connection signal="pressed" from="VBoxContainer/CenterContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/CenterContainer/Play" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/CenterContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="toggled" from="VBoxContainer/CenterContainer2/ShowTimer" to="." method="_on_show_timer_toggled"]

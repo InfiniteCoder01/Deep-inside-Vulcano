@@ -25,7 +25,7 @@ res://addons/AsepriteWizard/interface/shared/tree/tree_selection_confirmation_wa
 res://addons/AsepriteWizard/interface/shared/animation_player_drop_button.tscn::fb2de625db2d2de407dbf1e31efa4e38::1722079519::res://.godot/exported/133200997/export-b438e1f49ffec5c140bc30d5940a1fcd-animation_player_drop_button.scn
 res://addons/AsepriteWizard/interface/shared/dir_drop_button.tscn::fa00aa3631697f10e2a0d730855691df::1722079519::res://.godot/exported/133200997/export-f7f58b4bacdd19133cb1b7874b32c31c-dir_drop_button.scn
 res://addons/AsepriteWizard/interface/shared/source_drop_button.tscn::25da0701d16681ef988fc71f2a75010c::1722079519::res://.godot/exported/133200997/export-47fb6e35cef976bbf25696d481484390-source_drop_button.scn
-res://addons/better-terrain/editor/Dock.tscn::41ac4bde4ff25a7b9dcd87dfe345a7de::1722184939::res://.godot/exported/133200997/export-bb7663485201f8e098723b99ffab38ed-Dock.scn
-res://addons/better-terrain/editor/TerrainEntry.tscn::3531984998766f327a25112f7a8d86c6::1722184939::res://.godot/exported/133200997/export-1646aefb1057677996d5b8189e6630e0-TerrainEntry.scn
-res://addons/better-terrain/editor/TerrainProperties.tscn::cc865c4e00aaea44f3cd9bf087dfda08::1722184939::res://.godot/exported/133200997/export-26fadb5fb86ce62feb2de7d3c79404c8-TerrainProperties.scn
-res://menu/start_menu.tscn::9fbb67234be70ba498fc40a5f8484792::1722279411::res://.godot/exported/133200997/export-4bf7240d65fbe8bc618e1277cf29a643-start_menu.scn
+res://addons/better-terrain/editor/Dock.tscn::41ac4bde4ff25a7b9dcd87dfe345a7de::1722281629::res://.godot/exported/133200997/export-bb7663485201f8e098723b99ffab38ed-Dock.scn
+res://addons/better-terrain/editor/TerrainEntry.tscn::3531984998766f327a25112f7a8d86c6::1722281629::res://.godot/exported/133200997/export-1646aefb1057677996d5b8189e6630e0-TerrainEntry.scn
+res://addons/better-terrain/editor/TerrainProperties.tscn::cc865c4e00aaea44f3cd9bf087dfda08::1722281629::res://.godot/exported/133200997/export-26fadb5fb86ce62feb2de7d3c79404c8-TerrainProperties.scn
+res://menu/start_menu.tscn::ad0cdd437781d03c60dc5285187d7e41::1722281632::res://.godot/exported/133200997/export-4bf7240d65fbe8bc618e1277cf29a643-start_menu.scn
