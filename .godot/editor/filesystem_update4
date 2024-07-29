@@ -1,0 +1,5 @@
+res://player/player.tscn
+res://level/pipe/pipe.gdshader
+res://level/pipe/tap/tap.tscn
+res://level/level.tscn
+res://menu/start_menu.tscn
